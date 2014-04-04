@@ -23,14 +23,6 @@
   	$( "#dialog-tommy" ).dialog({
       width: 450,
       height: 380,
-      show: {
-       effect: "blind",
-       duration: 1000
-      },
-      hide: {
-       effect: "explode",
-       duration: 800
-      },
       open: function(event, ui){
        setTimeout("$('#dialog-tommy').dialog('close')",10000);
       }
